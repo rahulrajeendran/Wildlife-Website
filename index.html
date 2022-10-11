@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <div style="background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);background-repeat: no-repeat;background-size: cover;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent static-top" >
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             
+              <div class="container">
+                <a class="navbar-collapse" href="#">
+                  <img src="WILD.png" alt="..." height="70">
+                </a>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: white;">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" style="color:white;">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" style="color: white;"><i class="fa fa-search" aria-hidden="true"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-outline-warning">Sign in</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+              </div>
+
+          </nav>
+          <div class="container"><br>
+            <div class="row" style="height: 200px;"></div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 style="color: darkorange;">Survival</h2>
+                    <p style="color: white;">“The wealth of the nation is its air, water, soil, forests, minerals, <br>
+                    rivers, lakes, oceans, scenic beauty, wildlife habitats and biodiversity… that's all there is. <br>
+                    That's the whole economy. That's where all the economic activity and jobs come from. <br>
+                    These biological systems are the sustaining wealth of the world.” <br>
+                    ~ Gaylord Nelson</p><br>
+                    <button type="button" class="btn btn-warning">Donate</button>
+                </div>
+            </div>
+            <div class="row" style="height: 150px;"></div>
+    </div>
+</div>
+
+    <!-- second -->
+
+    <div style="background-color: darkgray;">
+        <div class="row" style="height: 50px;"></div>
+        <center>
+            <h1>Latest articles</h1>
+            <p>Breaking news from the wild</p>
+        </center>
+        <div class="row" style="height: 50px;"></div>
+    
+     <!--Carousel Wrapper-->
+     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+          <li data-target="#multi-item-example" data-slide-to="1"></li>
+          <li data-target="#multi-item-example" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+    
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+    
+          <!--First slide-->
+          <div class="carousel-item active">
+    
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://media.istockphoto.com/photos/huge-bull-elk-in-a-scenic-backdrop-picture-id157188093?b=1&k=20&m=157188093&s=170667a&w=0&h=L3ZbYuw6fGOEAUjoAzquUDHlCrZT8dhPJ6xVk7KchHg=" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:54px;">Deer</h4>
+                    <p class="card-text">Deer or true deer are hoofed ruminant mammals forming the family Cervidae. </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7_X4Ol7s5UC31NYqTGkEQW7a3b-HNX-Tortp2hSdzrSpWnk-wy-bc8G1CxrNgpjfsZQE&usqp=CAU" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:30px;">Crocodile</h4>
+                    <p class="card-text">Crocodiles or true crocodiles are large semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia.</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://cdn.wallpapersafari.com/74/1/Hk61LC.jpg" alt="Card image cap" height="315px">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:30px;">Squirrel</h4>
+                    <p class="card-text">Squirrels are members of the family Sciuridae, a family that includes small or medium-size rodents. 
+                      The squirrel family includes tree squirrels, ground squirrels, and flying squirrels.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" href="#multi-item-example" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" href="#multi-item-example" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    
+          </div>
+          <!--/.First slide-->
+    
+          <!--Second slide-->
+          <div class="carousel-item">
+    
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://www.10wallpaper.com/wallpaper/1600x1200/1204/male_lion-Wild_Animal_HD_Wallpapers_1600x1200.jpg" alt="Card image cap" height="315px">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:30px;">Lion</h4>
+                    <p class="card-text">The lion is a large cat of the genus Panthera native to Africa and India. 
+                      It has a muscular, broad-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail.</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:55px;">Zebra</h4>
+                    <p class="card-text">Zebras are African equines with distinctive black-and-white striped coats. 
+                      There are three living species: the Grévy's zebra, plains zebra, and the mountain zebra.</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdX8dOFHiEOu9GBNXJLrNT0UMFctgTOH43jxBFLOpBORR1Fvu-_a9LzAE4LC2QLqOmKzg&usqp=CAU" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:80px;">Bear</h4>
+                    <p class="card-text">Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" href="#multi-item-example" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" href="#multi-item-example" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    
+          </div>
+          <!--/.Second slide-->
+    
+          <!--Third slide-->
+          <div class="carousel-item">
+    
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://www.wallpaperuse.com/wallp/51-512595_m.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:53px;">Black Panther</h4>
+                    <p class="card-text">A black panther is the melanistic colour variant of the leopard and the jaguar. 
+                      Black panthers of both species have excess black pigments, but their typical rosettes are also present. </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://media.istockphoto.com/photos/wild-elephant-picture-id520839324?k=20&m=520839324&s=612x612&w=0&h=W4rMSRpWhsEVfQjIfxwlkC0qVHsj6Uo0vt6RQ2OgB5c=" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Elephant</h4>
+                    <p class="card-text">Elephantidae is a family of large, herbivorous proboscidean mammals collectively called elephants and mammoths. 
+                      These are terrestrial large mammals with a snout modified into a trunk and teeth modified into tusks.</p>
+                    
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="https://m.media-amazon.com/images/I/71oBt0VeGmL._SL1500_.jpg" alt="Card image cap" height="315px">
+                  <div class="card-body">
+                    <h4 class="card-title" style="height:53px;">Horse</h4>
+                    <p class="card-text">The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" href="#multi-item-example" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" href="#multi-item-example" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+    
+          </div>
+          <!--/.Third slide-->
+    
+        </div>
+        
+        <div class="row" style="height:200px;"></div>
+        <center>Get notified about new amazing articles <br><br>
+          <input type="email" placeholder="Email" style="height:36px; width: 300px;">
+          <button type="button" class="btn btn-warning">Send</button>
+        </center>
+        <div class="row"  style="height: 100px;"></div>
+    
+   </div>
+    
+   <!-- ending -->
+   <footer>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:200px; background-image:url(https://cutewallpaper.org/24/images-of-leaves/20000-fd0a3-best-609ed-leaves-e938f-photos-6f236-%C2%B7-bfe68-100-9114a-free-41525-download-af76c-%C2%B7---pexels---stock---photos.jpeg);">
+      <a class="navbar-brand" href="#" style="margin-left: 500px;margin-top: ;"><img src="WILD.png" alt="..." height="70"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: white;">Articles <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Learn more</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;"><i class="fa-brands fa-facebook"></i></a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;"><i class="fa-brands fa-pinterest"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;"><i class="fa-brands fa-telegram"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+   </footer>
+
+   
+    
+
+</body>
+</html>
